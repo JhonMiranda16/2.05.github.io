@@ -1,22 +1,17 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Clasificación de Ingresos</title>
 </head>
 <body>
     <script>
-        var x=parseInt(prompt("Ingrese numero"))
-        
-        if(x%2==0)
-        {
-            document.write("<h1>El numero ingresado es par</h>");
-        } else 
-        {
-            document.write("<h1>El numero ingresado es inpar</h>");
-            
-        }
+       var datos=[20,30,40];
+
+       for(var x=0;x<datos.length;x++){
+        document.write(datos[x]+"<br>")
+       }
     </script>
 </body>
 </html>
